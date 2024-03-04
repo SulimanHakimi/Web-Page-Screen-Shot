@@ -1,4 +1,4 @@
-let btn = document.getElementById("screen");
+let btn = document.getElementById("screenBtn");
 btn.addEventListener("click", () => {
   html2canvas(document.body).then((canvas) => {
     const url = canvas.toDataURL("image/png");
